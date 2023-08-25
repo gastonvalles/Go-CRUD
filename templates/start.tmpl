@@ -1,0 +1,33 @@
+{{define "start"}}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Go CRUD</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto py-8">
+        <table class="w-full bg-white shadow-md rounded-lg overflow-hidden">
+            <thead class="bg-blue-500 text-white">
+                <tr>
+                    <th class="py-3 px-6 text-left">ID</th>
+                    <th class="py-3 px-6 text-left">Name</th>
+                    <th class="py-3 px-6 text-left">Email</th>
+                    <th class="py-3 px-6 text-left">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="hover:bg-gray-100">
+                    <td class="py-4 px-6">1</td>
+                    <td class="py-4 px-6">Gaston</td>
+                    <td class="py-4 px-6">gastonvallesyeou@gmail.com</td>
+                    <td class="py-4 px-6">Edit | Delete</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
+{{end}}
