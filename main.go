@@ -8,7 +8,8 @@ import (
 
 func main() {
 	http.HandleFunc("/", Start)
-	log.PrintIn("Server running...")
+	log.Println("Server running...")
+	http.ListenAndServe(":8080", nil)
 }
 
 func Start(w http.ResponseWriter, r *http.Request) {
