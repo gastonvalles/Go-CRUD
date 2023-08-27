@@ -10,15 +10,13 @@ You will learn how to build a basic application to manage employee records throu
 Make sure you have the following components installed before you begin:
 
 - Go: [Installation Instructions](https://golang.org/doc/install)
--
-MySQL: [Installation Instructions](https://dev.mysql.com/doc/mysql-installation-excerpt/5.7/en/)
+- MySQL: [Installation Instructions](https://dev.mysql.com/doc/mysql-installation-excerpt/5.7/en/)
 
 ## Setting
 
 1. Clone this repository to your local machine: `git clone https://github.com/yourusername/Go-CRUD.git`
 2. Navigate to the project folder: `cd Go-CRUD`
-3.
-Import Database: Run the provided SQL scripts in the `db` folder to create the database structure.
+3. Import Database: Run the provided SQL scripts in the `db` folder to create the database structure.
 
 ## Use
 
@@ -26,15 +24,13 @@ Make sure you have a running MySQL instance before starting the application.
 
 1. Open a terminal and navigate to the project folder.
 2. Run the application: `go run main.go`
-3.
-Follow the instructions on the screen to perform CRUD operations on the employee database.
+3. Follow the instructions on the screen to perform CRUD operations on the employee database.
 
 ## Project Structure
 
 - `main.go`: Contains the entry point of the application.
 - `db/`: Contains the SQL scripts to create the database and the necessary table.
-- `img/`: Contains graphic resources, including the logo image (Gopher.
-png).
+- `img/`: Contains graphic resources, including the logo image (Gopher.png).
 
 ## Contribution
 
