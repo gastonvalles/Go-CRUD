@@ -1,44 +1,50 @@
-# Go-CRUD: Aplicación CRUD de Empleados con Go y MySQL
+# Go-CRUD: Employee CRUD Application with Go and MySQL
 
 ![Gopher](./img/Gopher.png)
 
-Bienvenido a Go-CRUD, una aplicación de ejemplo que demuestra las operaciones CRUD (Crear, Leer, Actualizar, Eliminar) utilizando el lenguaje de programación Go y la base de datos MySQL. En este proyecto, aprenderás cómo construir una aplicación básica para administrar los registros de empleados a través de una interfaz de línea de comandos (CLI).
+Welcome to Go-CRUD, a sample application that demonstrates CRUD (Create, Read, Update, Delete) operations using the Go programming language and MySQL database. In this project,
+You will learn how to build a basic application to manage employee records through a command line interface (CLI).
 
-## Requisitos Previos
+## Previous requirements
 
-Asegúrate de tener instalados los siguientes componentes antes de comenzar:
+Make sure you have the following components installed before you begin:
 
-- Go: [Instrucciones de Instalación](https://golang.org/doc/install)
-- MySQL: [Instrucciones de Instalación](https://dev.mysql.com/doc/mysql-installation-excerpt/5.7/en/)
+- Go: [Installation Instructions](https://golang.org/doc/install)
+-
+MySQL: [Installation Instructions](https://dev.mysql.com/doc/mysql-installation-excerpt/5.7/en/)
 
-## Configuración
+## Setting
 
-1. Clona este repositorio a tu máquina local: `git clone https://github.com/tuusuario/Go-CRUD.git`
-2. Navega a la carpeta del proyecto: `cd Go-CRUD`
-3. Importa la base de datos: Ejecuta los scripts SQL proporcionados en la carpeta `db` para crear la estructura de la base de datos.
+1. Clone this repository to your local machine: `git clone https://github.com/yourusername/Go-CRUD.git`
+2. Navigate to the project folder: `cd Go-CRUD`
+3.
+Import Database: Run the provided SQL scripts in the `db` folder to create the database structure.
 
-## Uso
+## Use
 
-Asegúrate de tener una instancia de MySQL en ejecución antes de iniciar la aplicación.
+Make sure you have a running MySQL instance before starting the application.
 
-1. Abre una terminal y navega a la carpeta del proyecto.
-2. Ejecuta la aplicación: `go run main.go`
-3. Sigue las instrucciones en pantalla para realizar operaciones CRUD en la base de datos de empleados.
+1. Open a terminal and navigate to the project folder.
+2. Run the application: `go run main.go`
+3.
+Follow the instructions on the screen to perform CRUD operations on the employee database.
 
-## Estructura del Proyecto
+## Project Structure
 
-- `main.go`: Contiene el punto de entrada de la aplicación.
-- `db/`: Contiene los scripts SQL para crear la base de datos y la tabla necesaria.
-- `img/`: Contiene recursos gráficos, incluida la imagen del logo (Gopher.png).
+- `main.go`: Contains the entry point of the application.
+- `db/`: Contains the SQL scripts to create the database and the necessary table.
+- `img/`: Contains graphic resources, including the logo image (Gopher.
+png).
 
-## Contribución
+## Contribution
 
-Si encuentras algún problema o mejora potencial, siéntete libre de abrir un problema o enviar una solicitud de extracción. ¡Tu contribución es bienvenida!
+If you find any issues or potential improvements, feel free to open an issue or submit a pull request. Your contribution is welcome!
 
-## Licencia
+## License
 
-Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](./LICENSE) para más información.
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more information.
 
 ---
 
-¡Disfruta explorando y aprendiendo con Go-CRUD! Si tienes alguna pregunta, no dudes en crear un problema en este repositorio.
+Enjoy exploring and learning with Go-
+CRUD! If you have any questions, feel free to post an issue on this repository.
